@@ -77,8 +77,8 @@ def scan_zip(path, keys, hits):
         print(f"  [err] {path}: {e}")
 
 def main():
-    roots = sys.argv[1:] or [r'C:\Users\Administrator\Desktop\servers\ZenithProxy',
-                             r'D:\minecraft\ZenithProxy']
+    roots = sys.argv[1:] or [r'C:\servers\ZenithProxy',
+                             r'D:\ZenithProxy']
     files = []
     for root in roots:
         if not os.path.isdir(root): continue

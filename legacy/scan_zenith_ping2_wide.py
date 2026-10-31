@@ -74,8 +74,8 @@ def scan_file(path, keys):
 
 
 def main():
-    roots = sys.argv[1:] or [r'C:\Users\Administrator\Desktop\servers\ZenithProxy',
-                             r'D:\minecraft\ZenithProxy']
+    roots = sys.argv[1:] or [r'C:\servers\ZenithProxy',
+                             r'D:\ZenithProxy']
     log_files = set()
     for root in roots:
         if not os.path.isdir(root):
