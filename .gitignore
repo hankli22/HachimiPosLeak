@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.pytest_cache/
+.venv/
+venv/
+
+# 扫描结果（可能含隐私数据，不提交）
+*_result.json
+*_result.md
+zenith_ping2_*.json
+zenith_ping2_*.md
+
+# 个人日志
+*.log
+logs/
+*.zip
+
+# 编辑器
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
